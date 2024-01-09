@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>Portfólio - pessoal</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <ul class="navbar__links">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#footer">Contact-me</a></li>
+        </ul>
+        <div class="navbar__mobile">
+          <img src="assets/menu.svg" alt="menu" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#footer">Contact-me</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- header -->
+    <header id="header" class="max-width">
+      <div class="header__left">
+        <h1>Hello! I'm Pedro, Back-end developer</h1>
+        <p>
+          Back-end developer focused on Python, from solutions
+           With database, websites with Django Framework. My
+           Passion is to create lines of code that solve real problems.
+        </p>
+        <a href="#about" class="btn btn-primary">More Information!</a>
+      </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="about" class="about max-width">
+      <div class="about__left">
+        <h2 class="secondary-title">Beyond the lines of code: Who am I?</h2>
+        <p>
+          How about following me on social networks below and know more about my daily life?
+        </p>
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/pedrohambrosioo/" target="_blank"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/pedro-ambrosio-659203271/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+        </ul>
+      </div>
+      <div class="about__right">
+        <h3 class="tertiary-title mb-m">
+          My treject with programming:
+        </h3>
+        <p>
+          My story with technology starts still as a child. The Arduine
+           along with C ++ came into my life as a joke even when I was
+           at school. Then, in adolescence, a technical course introduced me
+           Microcontrollers and I had the opportunity to know the C Language.
+        </p>
+        <h3 class="tertiary-title mb-m">
+          Why the programming?
+        </h3>
+        <p>
+          Programming is the only way to communicate with computers. And through this
+           "Conversation" is possible to create programs that will help the lives of millions of people
+        </p>
+      </div>
+    </section>
+
+    <!-- habilidades -->
+    <section id="skills" class="skills">
+      <div class="skills__content max-width">
+        <h2 class="tertiary-title">My skills !</h2>
+        <p class="description">
+          Find out which tools I use in my daily life,
+           And which ones I am improving me.
+        </p>
+        <ul>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/notebook.png" alt="Desenvolvimento Web" />
+            </div>
+            <h3>Web development</h3>
+            <p>
+              Web development with Django. HTML, CSS, JavaScript
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/python.png" alt="UX/UI Design" />
+            </div>
+            <h3>Python</h3>
+            <p>
+              Python language experience.
+            </p>
+          </li>
+          <li class="skills__item">
+            <div class="image-container">
+              <img src="assets/sql.png" alt="Gerenciamentos de versões" />
+            </div>
+            <h3>Database</h3>
+            <p>
+              Experience with database, especially MySQL.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects" class="projects max-width">
+      <div class="projects__content">
+        <h2 class="secondary-title">Featured Projects</h2>
+        <p>
+          Discover the projects I did during my studies
+        </p>
+      </div>
+      <ul>
+        <li>
+          <div class="image">
+            <img src="assets/mediapipe.png" alt="Gerenciamento de tarefas" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              Finger Accountant:
+            </h3>
+            <p>
+              Developed system that integrates with the camera, identifies a hand and counts fingers.
+               Using Python, OpenCV and Medipipe
+            </p>
+            <a href="https://github.com/pedrohambrosioo/Mediapipe">See the code &rarr;</a>
+          </div>
+        </li>
+        <li class="projects__reversed-list">
+          <div class="image">
+            <img src="https://devporai.com.br/wp-content/uploads/2021/01/O-que-e-CRUD.jpg" alt="ecommerce" />
+          </div>
+          <div class="projects__info">
+            <h3 class="tertiary-title">
+              CRUD in database
+            </h3>
+            <p>
+              A program that registers, updates, deletes and reads items in a database.
+               The chosen database was MySQL
+            </p>
+            <a href="https://github.com/pedrohambrosioo/database">See the code &rarr;</a>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer__content max-width mb-0">
+        <h2 class="tertiary-title mb-s">Let's get to know each other?</h2>
+        <p class="mb-m">
+          I will be happy to talk to you better. . .
+        </p>
+        <div class="footer__contact mb-m">
+          <span class="mb-m">pedro.ambro@hotmail.com</span>
+          <span>+55 (19) 99888-7950</span>
+        </div>
+        <ul class="mb-l">
+          <li>
+            <a href="https://www.instagram.com/pedrohambrosioo/" target="_blank"><img src="assets/instagram.svg" alt="Instagram" /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/pedro-ambrosio-659203271/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+          </li>
+        </ul>
+        <p class="footer__copyright">
+          © 2023 Pedro Henrique Ambrosio.
+        </p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
